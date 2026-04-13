@@ -26,7 +26,7 @@
 #
 
 use REST::Client;
-use Digest::SHA1  qw(sha1 sha1_hex sha1_base64);
+use Digest::SHA  qw(sha1 sha1_hex sha1_base64);
 
 # Path to dictionary for password checking
 my $dict = "/usr/share/dict/american-english";
