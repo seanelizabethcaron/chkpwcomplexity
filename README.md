@@ -3,6 +3,8 @@ Sean Caron scaron@umich.edu
 
 This is a simple password complexity check script for GoSA.
 
+Requires packages: librest-client-perl, libdigest-sha-perl
+
 To install, edit /etc/gosa/gosa.conf and add a plugin in the pathMenu section, like below:
 
 ```
